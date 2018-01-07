@@ -1,0 +1,17 @@
+<div id="vue_app">
+<h3> Demo - Phoenix channels & Vue.js</h3>
+<div class="alert alert-info" >
+  <div v-bind:class="content">
+    <h4>Channel {{ content }}</h4>
+  </div>
+ </div> 
+<template>
+  <div class="chan_button-container">
+    <button
+        class="chan_button"
+        @click="new_word"
+    >
+    Fetch random word
+  </button>
+</template> 
+</div>
