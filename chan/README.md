@@ -16,5 +16,5 @@
 
   ### Vue debugging tools work, too.
 
-  ![Vue debugging tools work, too](chan/assets/doc_images/vuechannel_3.png) 
+  ![Vue debugging tools work, too](assets/doc_images/vuechannel_3.png) 
 
