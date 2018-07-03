@@ -27,5 +27,11 @@ If it works, it should look like these [screen shots](chan/README.md).
 
 Have fun poking around with iex and browser debugging tools!
 
+---
 
+<i>Update 20180703: Phoenix project is now configured to use Webpack instead of Brunch. 
+  
+  When Phoenix 1.4 is released, Webpack will be default. I followed the gist below to configure Phoenix 1.3 and Webpack: https://gist.github.com/LostKobrakai/b28c18bc369f421cdc19136f8252b412).
+
+<i>
 
