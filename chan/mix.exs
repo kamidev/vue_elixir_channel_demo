@@ -5,7 +5,7 @@ defmodule Chan.Mixfile do
     [
       app: :chan,
       version: "0.0.1",
-      elixir: "~> 1.4",
+      elixir: "~> 1.6",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
@@ -33,14 +33,14 @@ defmodule Chan.Mixfile do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.3.0"},
-      {:phoenix_pubsub, "~> 1.0"},
-      {:phoenix_html, "~> 2.10"},
-      {:phoenix_live_reload, "~> 1.0", only: :dev},
-      {:gettext, "~> 0.11"},
+      {:phoenix, "~> 1.3.3"},
+      {:phoenix_pubsub, "~> 1.0.2"},
+      {:phoenix_html, "~> 2.11.2"},
+      {:phoenix_live_reload, "~> 1.1.5", only: :dev},
+      {:gettext, "~> 0.15"},
       {:cowboy, "~> 1.0"},
-      {:ex_doc, "~> 0.18.1"},
-      {:earmark, "~> 1.2.4"},
+      {:ex_doc, "~> 0.18.3"},
+      {:earmark, "~> 1.2.5"},
       {:dictionary, path: "lib/dictionary"}
     ]
   end
